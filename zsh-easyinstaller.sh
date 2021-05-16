@@ -20,15 +20,15 @@ read x
 apt update
 apt install zsh git -y
 mkdir /usr/share/fonts/truetype/nerdfont && cd /usr/share/fonts/truetype/nerdfont
-wget -O /tmp/Sauce_Code_Pro_Nerd_Font_Complete_Mono.ttf https://darkdevil.osit.cc/gitlab/public-projects/zsh-und-bash-configs/raw/master/Sauce_Code_Pro_Nerd_Font_Complete_Mono.ttf
+wget -O /tmp/Sauce_Code_Pro_Nerd_Font_Complete_Mono.ttf https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/Sauce_Code_Pro_Nerd_Font_Complete_Mono.ttf
 mv /tmp/Sauce_Code_Pro_Nerd_Font_Complete_Mono.ttf /usr/share/fonts/truetype/nerdfont/Sauce_Code_Pro_Nerd_Font_Complete_Mono.ttf
 fc-cache -fv
-wget -O /root/.zshrc https://darkdevil.osit.cc/gitlab/public-projects/zsh-und-bash-configs/raw/master/zshrc-root
-wget -O /etc/skel/.zshrc https://darkdevil.osit.cc/gitlab/public-projects/zsh-und-bash-configs/raw/master/zshrc-user
-wget -O /root/.p10k.zsh https://darkdevil.osit.cc/gitlab/public-projects/zsh-und-bash-configs/raw/master/p10k.zsh-root
-wget -O /etc/skel/.p10k.zsh https://darkdevil.osit.cc/gitlab/public-projects/zsh-und-bash-configs/raw/master/p10k.zsh-user
+wget -O /root/.zshrc https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/zshrc-root
+wget -O /etc/skel/.zshrc https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/zshrc-user
+wget -O /root/.p10k.zsh https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/p10k.zsh-root
+wget -O /etc/skel/.p10k.zsh https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/p10k.zsh-user
 usermod -s /bin/zsh root
-wget -O /tmp/nano.tar https://darkdevil.osit.cc/gitlab/public-projects/zsh-und-bash-configs/raw/master/nano_syntax_highlighting.tar
+wget -O /tmp/nano.tar https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/nano_syntax_highlighting.tar
 tar -xf /tmp/nano.tar -C /root
 tar -xf /tmp/nano.tar -C /etc/skel
 rm /tmp/nano.tar -f
