@@ -1,14 +1,14 @@
 ZSH, Bash und Nano Config
 =========================
 
-Hier findest du vorgefertigte Configs für Nano, ZSH und Bash. Die Shellconfigs basieren auf dem Projekt powerlevel10k.
-[GIT Projekt Powerlevel10k](https://github.com/romkatv/powerlevel10k) und der Font von hier: [GIT Projekt Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts) Für V2 wurden Dinge wie Powerlevel10k weggelassen. 
-Du hast die Möglichkeit mit dem automatischem Installer Nano und ZSHconfigs zu installieren. Hierfür einfach den [InstallerV1](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstaller.sh) oder am besten gleich [InstallerV2](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstallerV2.sh) herunterladen, ausführbar machen und ausführen. 
+Here you find prefabricated Configs for Nano, ZSH and Bash. The shellconfigs are based on the project powerlevel10k.
+[GIT Projekt Powerlevel10k](https://github.com/romkatv/powerlevel10k) and the font from here: [GIT Projekt Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts) For V2, things like powerlevel10k were omitted.
+You have the possibility to install Nano and ZSHconfigs with the automatic installer. For this simply use the [InstallerV1](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstaller.sh) or best of all [InstallerV2](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstallerV2.sh) download, make executable and run.
 
 INSTALLATION
 ------------
 
-Folgende Befehle mit SUDO oder in einer Rootshell ausführen.
+Run the following commands with SUDO or in a rootshell.
 
 **V1**
 ~~~
@@ -25,7 +25,7 @@ chmod +x zsh-easyinstallerV2.sh
 ~~~
 
 
-Die Bashrc hat folgende Modfikationen: 
+Bashrc has the following modifications:
 
-  * Die Limitierung der History auf eine bestimmte Anzahl wurde entfernt.
-  * Bash schreibt die History nicht erst beim Logout, sondern im Livemodus.
+  * The limitation of the history to a certain number has been removed.
+  * Bash does not write the history only at logout, but in live mode.
