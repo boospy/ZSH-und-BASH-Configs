@@ -10,13 +10,13 @@ ZSH, Bash und Nano Config
 **Tested on Ubuntu 20.04 and 22.04 LTS**
 
 Here you find prefabricated Configs for Nano, ZSH and Bash. The shellconfigs are based on the project powerlevel10k.
-[GIT Projekt Powerlevel10k](https://github.com/romkatv/powerlevel10k) and the font from here: [GIT Projekt Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts) For V2, things like powerlevel10k were omitted.
-You have the possibility to install Nano and ZSHconfigs with the automatic installer. For this simply use the [InstallerV1](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstaller.sh) or best of all [InstallerV2](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstallerV2.sh) download, make executable and run.
+[GIT Projekt Powerlevel10k](https://github.com/romkatv/powerlevel10k) and the font from here: [GIT Projekt Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts) For V2, things like powerlevel10k were omitted for much lightwight.
+You have the possibility to install Nano and ZSHconfigs with the automatic installer. For this simply use the [InstallerV1](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstaller.sh) or use another version [InstallerV2](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstallerV2.sh) download, make executable and run.
 
 INSTALLATION
 ------------
 
-Run the following commands with SUDO or in a rootshell.
+Run the following commands with SUDO or in a rootshell. Use the version you like.
 
 **V1**
 ~~~
