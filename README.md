@@ -37,3 +37,19 @@ Bashrc has the following modifications:
 
   * The limitation of the history to a certain number has been removed.
   * Bash does not write the history only at logout, but in live mode.
+
+BUG
+---
+
+After the installtion is ready and you have your new ZSH active and running, you should disable on your useraccount the updatefeature for zplug. It seems to be broken. 
+
+Comment out this lines with "#" from your ".zshrc"
+~~~
+if ! zplug check; then
+    printf "Install plugins? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+~~~
+
