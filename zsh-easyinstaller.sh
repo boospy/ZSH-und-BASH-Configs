@@ -27,7 +27,8 @@ wget -O /root/.zshrc https://git.osit.cc/public-projects/zsh-und-bash-configs/ra
 wget -O /etc/skel/.zshrc https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/zshrc-user
 wget -O /root/.p10k.zsh https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/p10k.zsh-root
 wget -O /etc/skel/.p10k.zsh https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/p10k.zsh-user
-wget -O /root/.zplug https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/zplug-root.tar
+wget -O /tmp/zplug-root.tar https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/zplug-root.tar
+tar -xf /tmp/zplug-root.tar -C /root/.zplug
 usermod -s /bin/zsh root
 wget -O /tmp/nano.tar https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/nano_syntax_highlighting.tar
 tar -xf /tmp/nano.tar -C /root
