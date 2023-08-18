@@ -25,8 +25,6 @@ mv /tmp/Sauce_Code_Pro_Nerd_Font_Complete_Mono.ttf /usr/share/fonts/truetype/ner
 fc-cache -fv
 wget -O /root/.zshrc https://git.osit.cc/public-projects/kde-neon-installer/raw/master/zshrc
 wget -O /etc/skel/.zshrc https://git.osit.cc/public-projects/kde-neon-installer/raw/master/zshrc
-wget -O /tmp/zplug-root.tar https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/zplug-root.tar
-tar -xf /tmp/zplug-root.tar -C /root/.zplug
 usermod -s /bin/zsh root
 wget -O /tmp/nano.tar https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/nano_syntax_highlighting.tar
 tar -xf /tmp/nano.tar -C /root
