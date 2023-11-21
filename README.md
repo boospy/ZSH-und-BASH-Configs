@@ -44,6 +44,10 @@ You can change the domain at the end of the file:
 ~~~
 export PS1="%UDomain:%u %B%F{yellow}domain.foo $PS1"
 ~~~
+You can also change fortunes to your language. Default is german.
+~~~
+apt install fortunes-es fortunes-it fortunes-ru ... and more
+~~~
 
 Bashrc has the following modifications:
 
