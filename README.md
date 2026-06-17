@@ -48,6 +48,14 @@ You can also change fortunes to your language. Default is german.
 ~~~
 apt install fortunes-es fortunes-it fortunes-ru ... and more
 ~~~
+After you can enable your language or category in your ".zshrc" at the end. For example, italia:
+
+~~~
+...
+/usr/games/fortune italia
+...
+~~~
+For more information see "man fortune".
 
 Bashrc has the following modifications:
 

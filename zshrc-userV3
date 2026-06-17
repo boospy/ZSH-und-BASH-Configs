@@ -3926,7 +3926,7 @@ unfunction grml_status_feature
 prompt fade blue
 export PS1="%UDomain:%u %B%F{yellow}domain.foo $PS1"
 echo
-/usr/games/fortune
+/usr/games/fortune de
 echo
 echo
 echo
