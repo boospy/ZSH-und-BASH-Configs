@@ -112,3 +112,5 @@ if ! shopt -oq posix; then
   fi
 fi
 PROMPT_COMMAND="history -a; history -c; history -r"
+
+#test
