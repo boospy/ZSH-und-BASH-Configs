@@ -11,7 +11,7 @@ ZSH, Bash und Nano Config
 
 Here you find prefabricated Configs for Nano, ZSH and Bash. The shellconfigs are based on the project powerlevel10k.
 [GIT Projekt Powerlevel10k](https://github.com/romkatv/powerlevel10k) and the font from here: [GIT Projekt Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts) For V2, things like powerlevel10k were omitted for much lightwight.
-You have the possibility to install Nano and ZSHconfigs with the automatic installer. For this simply use the [InstallerV1](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstaller.sh) or use another version [InstallerV2](https://git.osit.cc/public-projects/zsh-und-bash-configs/blob/master/zsh-easyinstallerV2.sh) download, make executable and run.
+You have the possibility to install Nano and ZSHconfigs with the automatic installer. For this simply use the [InstallerV1](https://codeberg.org/boospy/zsh-und-bash-configs/raw/branch/master/zsh-easyinstaller.sh) or use another version [InstallerV2](https://codeberg.org/boospy/zsh-und-bash-configs/raw/branch/master/zsh-easyinstallerV2.sh) download, make executable and run.
 
 V3 is an implementation "back to the root's" with the grml project and wildcardfix (my favorite)
 
@@ -22,21 +22,21 @@ Run the following commands with SUDO or in a rootshell. Use the version you like
 
 **V1**
 ~~~
-wget https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/zsh-easyinstaller.sh
+wget https://codeberg.org/boospy/zsh-und-bash-configs/raw/branch/master/zsh-easyinstaller.sh
 chmod +x zsh-easyinstaller.sh
 ./zsh-easyinstaller.sh
 ~~~
 
 **V2**
 ~~~
-wget https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/zsh-easyinstallerV2.sh
+wget https://codeberg.org/boospy/zsh-und-bash-configs/raw/branch/master/zsh-easyinstallerV2.sh
 chmod +x zsh-easyinstallerV2.sh
 ./zsh-easyinstallerV2.sh
 ~~~
 
 **V3** (Back to the root's)
 ~~~
-wget https://git.osit.cc/public-projects/zsh-und-bash-configs/raw/master/zsh-easyinstallerV3.sh
+wget https://codeberg.org/boospy/zsh-und-bash-configs/raw/branch/master/zsh-easyinstallerV3.sh
 chmod +x zsh-easyinstallerV3.sh
 ./zsh-easyinstallerV3.sh
 ~~~
